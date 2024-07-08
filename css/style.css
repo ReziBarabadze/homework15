@@ -1,0 +1,104 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+/* container */
+.container{
+  width: min(100%, 1440px);
+  margin: auto;
+  padding-top: 95.56px; 
+}
+/* header */
+header{
+  max-width: inherit;
+  width: inherit;
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #402101;
+  padding: 26px 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.fa-bars, .fa-xmark, .fa-arrow-right-to-bracket{
+  display: none;
+}
+.header_ul{
+  display: flex;
+  column-gap: 60px;
+}
+.active{
+  color: #D5906E;
+}
+.inactive{
+  color:#FFFFFF;
+}
+.header_list_link{
+  font-family: "Inter", sans-serif;                            
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.78px;
+}
+.fa-bars{
+  font-size: 32px;
+  color: #FFFFFF;
+}
+.fa-xmark{
+  font-size: 32px;
+  color: #FFFFFF;
+}
+.logo_first_word{
+  font-family: "Inter", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 43.57px;
+  color: #FFFFFF;
+}
+.logo_second_word{
+  font-family: "Inter", sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 43.57px;
+  color: #D5906E;
+}
+.header_right_side{
+  display: flex;
+  align-items: center;
+  column-gap: 16px;
+}
+.header_right_side_span{
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.36px;
+  color: #FFFFFF;
+}
+.fa-arrow-right-to-bracket{
+  font-size: 24px;
+  color: #FFFFFF;
+}
+.fa-cart-shopping{
+  font-size: 24px;
+  color: #FFFFFF;
+}
+/* home_section1 */
+.home_section1{
+  height: 560px;
+  background-image: url("../images/cover1.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
