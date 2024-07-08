@@ -3,4 +3,19 @@
   header{
     padding-inline: 20px;
   }
+  /* home_section1 */
+  .home_section1{
+    height: 304px;
+  }
+  .home_section1_h2{
+    font-size: 32px;
+    line-height: 40px;
+    margin-bottom: 32px;
+  }
+}
+@media (max-width: 431px){
+  .home_section1_h2{
+    font-size: 24px;
+    line-height: 32px;
+  }
 }
