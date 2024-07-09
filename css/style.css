@@ -1,5 +1,6 @@
 /* font */
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
 /* container */
 .container{
   width: min(100%, 1440px);
@@ -107,7 +108,7 @@ header{
   height: 48px;
   border-radius: 10px;
   border: 2px solid #B53B1B;
-  box-shadow: 0px 4px 4px 0px #581504;
+  /* box-shadow: 0px 4px 4px 0px #581504; */    /*ჰოვერზე გამოდგება*/
   color: #FFFFFF;
   font-family: "Inter", sans-serif;
   font-size: 16px;
@@ -138,7 +139,7 @@ header{
   overflow-x: scroll;
   padding-inline: 120px;
 }
-.home_section2_cards::-webkit-scrollbar{
+.home_section2_cards::-webkit-scrollbar{    /*ეს ინტერნეტშ ვნახე, იმედია პრობლემა არიქნება ამაზე. სქროლის გაქრობა მინდოდა */
   display: none;
 }
 figure{
@@ -182,6 +183,65 @@ figcaption a{
   color: #FFFFFF;
   cursor: pointer;
 }
+/* footer */
+footer{
+  background-color: #402101;
+  padding: 80px 120px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer_left_box{
+  width: 160px;
+}
+.footer_left_nav{
+  margin-bottom: 42px;
+}
+.footer_left_ul{
+  width: 117px;
+  height: 88px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.first_font {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+.second_font {
+  font-family: "Rubik", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+.social_icon_box{
+  display: flex;
+  justify-content: space-between;
+}
+.footer_right_nav{
+  width: 184px;
+}
+.middle_info{
+  margin-block: 16px;
+}
+.footer_span{
+  margin-right: 16px;
+}
+.fa-phone, .fa-envelope, .fa-location-dot{
+  color: #FFFFFF;
+}
+.footer_info_style{
+  font-family: "Rubik", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+
+
 
 
 
