@@ -116,6 +116,72 @@ header{
   color: #B53B1B;
   cursor: pointer;
 }
+/* home_section2 */
+.home_section2{
+  background-color: #EA904F;
+}
+.home_section2_gethered{
+  padding-block: 120px;
+}
+.home_section2_h2{
+  font-family: "Inter", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  color: #FFFFFF;
+  margin-bottom: 40px;
+  text-align: center;
+}
+.home_section2_cards{
+  display: flex;  
+  gap: 24px;
+  overflow-x: scroll;
+  padding-inline: 120px;
+}
+.home_section2_cards::-webkit-scrollbar{
+  display: none;
+}
+figure{
+  padding: 16px;
+  background-color: #FFFFFF;
+  border-radius: 8px;
+  /* box-shadow: 0px 10px 5px 0px #000000; */                /* ჰოვერისთვის დამჭირდება ბოლოს*/
+}
+figcaption{
+  margin-block: 16px 24px;
+}
+figcaption a{
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 26px;
+  color: #B53B1B;
+}
+.home_section2_article{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.home_section2_h2_forNumber{
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  color: #B53B1B;
+}
+.home_section2_button{
+  width: 64px;
+  height: 32px;
+  background-color: #B53B1B;
+  border-radius: 8px;
+  border: none;
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #FFFFFF;
+  cursor: pointer;
+}
 
 
 

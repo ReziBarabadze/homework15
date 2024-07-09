@@ -12,8 +12,21 @@
     line-height: 40px;
     margin-bottom: 32px;
   }
+/* home_section2 */
+.home_section2_gethered{
+  padding-block: 64px;
+}
+.home_section2_cards{
+  padding-inline: 20px 0;
+}
+.home_section2_h2{
+  font-size: 32px;
+  line-height: 40px;
+  margin-bottom: 32px;
+}
 }
 @media (max-width: 431px){
+/* home_section1 */
   .home_section1_h2{
     font-size: 24px;
     line-height: 32px;

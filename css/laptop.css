@@ -20,6 +20,10 @@
     font-size: 24px;
     line-height: 32px;
   }
+  /* home_section2 */
+  .home_section2_cards{
+    padding-inline: 32px;
+  }
 }
 @media (max-width: 745px){
   /* header */
@@ -50,5 +54,9 @@
   }
   .header_list_link{
     color: #FFFFFF;
+  }
+  /* home_section2 */
+  .home_section2_cards{
+    padding-inline: 24px 0;
   }
 }

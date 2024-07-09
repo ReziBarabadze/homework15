@@ -3,6 +3,13 @@
   header{
     padding-inline: 8px;
   }
-  /* home_section1 */
-
+  /* home_section2 */
+  .home_section2_cards{
+    padding-inline: 8px 0;
+  }
+  .home_section2_h2{
+    font-size: 24px;
+    line-height: 32px;
+    margin-bottom: 42px;
+  }
 }
