@@ -108,7 +108,7 @@ header{
   height: 48px;
   border-radius: 10px;
   border: 2px solid #B53B1B;
-  /* box-shadow: 0px 4px 4px 0px #581504; */    /*ჰოვერზე გამოდგება*/
+  /* box-shadow: 0px 4px 4px 0px #581504;    ჰოვერზე გამოდგება */
   color: #FFFFFF;
   font-family: "Inter", sans-serif;
   font-size: 16px;
@@ -139,7 +139,7 @@ header{
   overflow-x: scroll;
   padding-inline: 120px;
 }
-.home_section2_cards::-webkit-scrollbar{    /*ეს ინტერნეტშ ვნახე, იმედია პრობლემა არიქნება ამაზე. სქროლის გაქრობა მინდოდა */
+.home_section2_cards::-webkit-scrollbar{/*ეს ერთადერთია რაც ინტერნეტშ ვნახე, იმედია პრობლემა არიქნება ამაზე. სქროლის გაქრობა მინდოდა*/
   display: none;
 }
 figure{

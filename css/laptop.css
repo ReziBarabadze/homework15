@@ -24,6 +24,10 @@
   .home_section2_cards{
     padding-inline: 32px;
   }
+/* footer */
+  footer{
+    padding-inline: 32px;
+  }
 }
 @media (max-width: 745px){
   /* header */
@@ -58,5 +62,41 @@
   /* home_section2 */
   .home_section2_cards{
     padding-inline: 24px 0;
+  }
+  /* footer */
+  footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer_left_nav{
+    margin-bottom: 32px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  .social_icon_box{
+    margin-bottom: 32px;
+  }
+  .footer_logo{
+    margin-bottom: 32px;
+  }
+  .footer_info_style{
+    display: none;
+  }
+  .middle_info{
+    margin-block: 0;
+  }
+  .footer_right_nav{
+    display: flex;
+    justify-content: center;
+  }
+  .footer_span{
+    margin-right: 0;
+  }
+  .footer_right_ul{
+    width: 104px;
+    display: flex;
+    justify-content: space-between;
   }
 }
