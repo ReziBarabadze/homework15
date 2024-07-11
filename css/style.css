@@ -363,6 +363,125 @@ footer{
 .fa-arrow-right{
   font-size: 22px;
 }
+/* contact-section1 */
+.contact_section1{
+  height: 720px;
+  background-image: url("../images/Rectangle\ 108.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 160px 0 0 222px;
+}
+.contact_section_article{
+  background-color: cadetblue;
+  width: 500px;
+  height: 400px;
+  border: 1px solid #FFFFFF;
+  background-color: #402101E5;  
+  border-radius: 10px;
+  padding: 24px 30px;
+}
+.form_title{
+  font-family: "Inter", sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 48px;
+  color: #FFFFFF;
+  margin-bottom: 40px;
+}
+.name_email{
+  display: flex;
+  justify-content: space-between;
+}
+input{
+  background-color: transparent;
+  border: none;
+  border: 2px solid #FFFFFF;
+  border-radius: 10px;
+  width: 190px;
+  height: 40px;
+  outline: none;
+  color: #FFFFFF;
+}
+::placeholder{
+  padding-left: 8px;
+}
+.textarea_box{
+  margin-block: 36px;
+}
+textarea{
+  resize: none;
+  width: 440px;
+  height: 96px;
+  border-radius: 8px;
+  border: none;
+  border: 2px solid #FFFFFF;
+  background-color: transparent;
+  outline: none;
+  color: #FFFFFF;
+}
+.send_button{
+  width: 147px;
+  height: 56px;
+  border-radius: 10px;
+  background-color: #FF543E;
+  border: none;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+/*contact-section2*/
+.contact_section2{
+  background-color: #EA904F;
+  padding: 120px 324px;
+}
+.content{
+  /* background-color: crimson; */
+}
+.contact_section2_h2{
+  font-family: "Inter", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  color: #FFFFFF;
+  text-shadow: 0px 4px 4px #000000;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.contact_iframe_box{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.middle_box{
+  margin-block: 72px;
+}
+.contact_button{
+  width: 48px;
+  height: 48px;
+  border: none;
+  border: 2px solid #FFFFFF;
+  border-radius: 8px;
+  background-color: #B53B1B;
+  margin-right: 14px;
+}
+.fa-phone,
+.fa-envelope,
+.fa-location-dot{
+  font-size: 16px;
+}
+.button_box_span{
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21.78px;
+  color: #FFFFFF;
+}
+
+
 
 
 
