@@ -39,6 +39,14 @@
   .third_line{
     display: none;
   }
+/* contact-section1 */
+ .contact_section1{
+  padding-left: 32px;
+}
+/* contact-section2  */
+  .contact_section2{
+    padding-inline: 116px;
+}
 }
 @media (max-width: 745px){
   /* header */
@@ -120,6 +128,14 @@
   }
   .button_forNumbers_box{
     width: 391px;
+  }
+  /* contact-section1 */
+ .contact_section1{
+  padding-left: 24px;
+  }
+  /* contact-section2  */
+  .contact_section2{
+    padding-inline: 24px;
   }
 }
 @media (max-width: 641px){

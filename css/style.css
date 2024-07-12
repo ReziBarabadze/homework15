@@ -40,6 +40,11 @@ header{
   font-weight: 400;
   line-height: 21.78px;
 }
+.header_list_link:hover{
+  background-color: chocolate;
+  border-radius: 50px;
+  color: #FFFFFF;
+}
 .fa-bars{
   font-size: 32px;
   color: #FFFFFF;
@@ -74,6 +79,11 @@ header{
   line-height: 19.36px;
   color: #FFFFFF;
 }
+.header_right_side_span:hover{
+  background-color: chocolate;
+  border-radius: 50px;
+  /* color: white; */
+}
 .fa-arrow-right-to-bracket{
   font-size: 24px;
   color: #FFFFFF;
@@ -82,7 +92,7 @@ header{
   font-size: 24px;
   color: #FFFFFF;
 }
-/* home_section1 */
+/* home_section 1 */
 .home_section1{
   height: 560px;
   background-image: url("../images/cover1.png");
@@ -108,7 +118,6 @@ header{
   height: 48px;
   border-radius: 10px;
   border: 2px solid #B53B1B;
-  /* box-shadow: 0px 4px 4px 0px #581504;    ჰოვერზე გამოდგება */
   color: #FFFFFF;
   font-family: "Inter", sans-serif;
   font-size: 16px;
@@ -116,6 +125,10 @@ header{
   line-height: 24px;
   color: #B53B1B;
   cursor: pointer;
+}
+.home_section1_button:hover{
+  box-shadow: 0px 4px 4px 0px #581504;
+  transition: 0.2s;
 }
 /* home_section2 */
 .home_section2{
@@ -139,14 +152,17 @@ header{
   overflow-x: scroll;
   padding-inline: 120px;
 }
-.home_section2_cards::-webkit-scrollbar{/*ეს ერთადერთია რაც ინტერნეტშ ვნახე, იმედია პრობლემა არიქნება ამაზე. სქროლის გაქრობა მინდოდა*/
+.home_section2_cards::-webkit-scrollbar{
   display: none;
 }
 figure{
   padding: 16px;
   background-color: #FFFFFF;
   border-radius: 8px;
-  /* box-shadow: 0px 10px 5px 0px #000000; */                /* ჰოვერისთვის დამჭირდება ბოლოს*/
+}
+figure:hover{
+  box-shadow: 0px 10px 5px 0px #000000;
+  filter: contrast(120%);
 }
 figcaption{
   margin-block: 16px 24px;
@@ -292,10 +308,16 @@ footer{
   width: 384px;
   /* flex ელემენტები ვერაფრით ავამუშავე, განსაკუთრებით flex_grow არ რეაგირებდა, თორე ვწერდი :/ */
 }
+.artwork_figure:hover{
+  box-shadow: 10px 10px 10px;
+}
 .artwork_figure_img{
   object-fit:  cover;
   width: 100%;
   height: 224px;
+}
+.artwork_figure_img:hover{
+  filter: grayscale();
 }
 .artwork_figcaption{
   margin-block: 16px 8px;
