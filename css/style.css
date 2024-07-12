@@ -286,12 +286,11 @@ footer{
   flex-wrap: wrap;
   justify-content: center;
   gap: 40px 24px;
-  /* background-color: chartreuse; */
 }
 .artwork_figure{
   background-color: #FFFFFF;
   width: 384px;
-  /* background-color: cadetblue; */
+  /* flex ელემენტები ვერაფრით ავამუშავე, განსაკუთრებით flex_grow არ რეაგირებდა, თორე ვწერდი :/ */
 }
 .artwork_figure_img{
   object-fit:  cover;
@@ -329,6 +328,7 @@ footer{
   display: flex;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
 }
 .fa-cart-plus{
   font-size: 27px;
@@ -437,9 +437,6 @@ textarea{
 .contact_section2{
   background-color: #EA904F;
   padding: 120px 324px;
-}
-.content{
-  /* background-color: crimson; */
 }
 .contact_section2_h2{
   font-family: "Inter", sans-serif;

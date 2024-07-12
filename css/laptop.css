@@ -28,6 +28,17 @@
   footer{
     padding-inline: 32px;
   }
+  /* artwork-section */
+  .artwork_section{
+    padding: 32px;
+  }
+  /* cards */
+  .artwork_figure{
+    width: 468px;
+  }
+  .third_line{
+    display: none;
+  }
 }
 @media (max-width: 745px){
   /* header */
@@ -99,4 +110,32 @@
     display: flex;
     justify-content: space-between;
   }
+  /* artwork-section */
+  .artwork_section{
+    padding: 24px;
+  }
+  /* cards */
+  .artwork_figure{
+    width: 336px;
+  }
+  .button_forNumbers_box{
+    width: 391px;
+  }
 }
+@media (max-width: 641px){
+  /* artwork-section  */
+  .artwork_section_title{
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .fourth_button{
+    display: none;
+  }
+  .artwork_title_box_button{
+    width: 61px;
+  }
+  .artwork_span{
+    display: none;
+  }
+}
+

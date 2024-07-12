@@ -12,4 +12,8 @@
     line-height: 32px;
     margin-bottom: 42px;
   }
+  /* artwork-section  */
+  .artwork_section{
+    padding: 8px;
+  }
 }
